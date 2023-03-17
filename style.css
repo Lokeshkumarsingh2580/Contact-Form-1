@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+.left-side {
+  width: 50%;
+  height: 500px;
+  background-color: rgba(175, 48, 201, 0.514);
+}
+
+.n {
+  font-size: 3rem;
+  padding: 23px;
+  color: rgba(247, 121, 4, 0.623);
+}
+
+h2 {
+  color: rgb(65, 1, 150);
+}
+.text {
+  font-size: x-large;
+  padding: 20px 25px;
+  width: 80%;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.a {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: rgba(251, 255, 0, 0.932);
+  border-radius: 50px 50px 0 0;
+  right: 39.5rem;
+  bottom: 8.5rem;
+  /* right: 15px;/ */
+  z-index: 1000;
+}
+
+.asd {
+  height: 100px;
+  width: 25px;
+  background-color: rgb(117, 22, 136);
+  position: absolute;
+  top: 20px;
+  left: 49%;
+  z-index: 100;
+}
+
+.wrapper {
+  display: flex;
+  padding: 20px;
+}
+
+.right-side {
+  background-color: royalblue;
+  width: 50%;
+  overflow: hidden;
+}
+
+.contact {
+  font-size: 54px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+input {
+  display: flex;
+  padding: 10px;
+  margin: 30px;
+  margin-left: 40px;
+  border-radius: 10px;
+  width: 260px;
+  outline: none;
+  background: transparent;
+  border: 2px solid white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.btn {
+  position: relative;
+  left: 43px;
+  width: 50px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: black;
+}
+
+i {
+  position: relative;
+  padding: 5px;
+  top: 22px;
+  margin-left: 15px;
+  color: rgb(56, 3, 201);
+}
